@@ -1,8 +1,9 @@
 #pragma once
-#include<iostream>
-//For use Katie Engine application
-#include "Katie/Application.h"
+#include<vsg/all.h>
 
-// Entry Piont
-#include "Katie/EntryPoint.h"
-//------------
+#include "ktpch.h"
+
+#include "Katie/Core/Application.h"
+#include "Katie/Log/Log.h"
+
+#include "Katie/Core/EntryPoint.h"

@@ -6,7 +6,8 @@ extern Katie::Application* Katie::CreateApplication();
 
 int main(int argc, char** argv)
 {
-	std::cout << "Katie Engine" << std::endl;
+	Katie::Log::Init();
+
 	auto app = Katie::CreateApplication();
 	app->Run();
 	delete app;

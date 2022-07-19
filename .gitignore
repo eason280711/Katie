@@ -1,7 +1,8 @@
 #Directories
 .vs/
-bin/
-bin-int/
+delete/
+build/
+cmake/
 
 #Files
 *.user

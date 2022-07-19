@@ -1,5 +1,6 @@
 #pragma once
-#include "Core.h"
+#include "Katie/Core/Core.h"
+#include "Katie/Event/Event.h"
 namespace Katie {
 	class KATIE_API Application
 	{

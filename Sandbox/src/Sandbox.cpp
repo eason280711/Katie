@@ -1,5 +1,4 @@
 #include<Katie.h>
-
 class Sandbox : public Katie::Application
 {
 public:
