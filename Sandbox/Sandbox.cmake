@@ -28,6 +28,9 @@ target_link_directories(Sandbox PRIVATE
 target_link_libraries(Sandbox
   Katie
   vsg::vsg
+  SDL2::SDL2
+  SDL2::SDL2main
+  imgui::imgui
 )
 if (vsgXchange_FOUND)
     target_compile_definitions(Sandbox PRIVATE vsgXchange_FOUND)

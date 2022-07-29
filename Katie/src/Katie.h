@@ -1,5 +1,4 @@
 #pragma once
-#include<vsg/all.h>
 
 #include "ktpch.h"
 

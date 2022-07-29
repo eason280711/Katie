@@ -2,7 +2,6 @@
 .vs/
 delete/
 build/
-cmake/
 
 #Files
 *.user
